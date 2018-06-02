@@ -31,7 +31,7 @@ namespace sistema1
         public int CompareTo(object obj)
         {
             produto outro = (produto)obj;
-            //int resultado = 
+            int resultado = nome.CompareTo(outro.nome);
         }
     }
 }

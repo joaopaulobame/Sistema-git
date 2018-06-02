@@ -28,10 +28,10 @@ namespace sistema1
                 + preco.ToString("F2");
         }
 
-       /* public int CompareTo(object obj)
+        public int CompareTo(object obj)
         {
             produto outro = (produto)obj;
-            int resultado = 
-        }*/
+            //int resultado = 
+        }
     }
 }

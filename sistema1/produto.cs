@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace sistema1
 {
-    class produto
+    class produto : IComparable
     {
         public int codigo { get; private set; }
         public string nome { get; private set; }
@@ -28,5 +28,10 @@ namespace sistema1
                 + preco.ToString("F2");
         }
 
+       /* public int CompareTo(object obj)
+        {
+            produto outro = (produto)obj;
+            int resultado = 
+        }*/
     }
 }
